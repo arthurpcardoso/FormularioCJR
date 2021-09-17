@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Arthur Cardoso</title>
+    <link rel='stylesheet' type='text/css' href="Formulario2_style.css">
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Cadrasto de Torcedor do Vasco</h1>
+        <br>
+        <img src="vasco2.png" id="imagem">
+        <br>
+        <br>
+        <p id="chamada"><strong>Complete seus dados para se tornar um torcedor do Vasco</strong></p>
+    </div>
+
+    <form>
+        <div>
+            <fieldset class='quadro'>
+                <div id="dadospessoais">
+                    <label for='nome'>Insira seu nome:</label>
+                    <input type="text" name="nome" id="nome">
+                    <br>
+                    <label for='idade'>Insira sua idade:</label>
+                    <input type="number" name="idade" id="idade">
+                    <br>
+                    <label for='email'>Insira seu email:</label>
+                    <input type="email" name="email" id="email">
+                    <br>
+                    <label for="CPF">Insira seu CPF:</label>
+                    <input type="number" name='CPF' id="CPF">
+                    <br>
+                    <label for='time'>Conhece o Clube de Regatas Vasco da Gama?</label>
+                    <input type="checkbox" name="conheçe" id="time">
+                    <br>
+                    <label for="desejo">Por que você deseja se tornar torcedor do vasco?</label>
+                    <textarea row='6' style="width: 25em;" id="desejo"></textarea>
+                </div>
+            </fieldset>
+        </div>
+        <div>
+            <button type="submit" id="enviar"><strong>Enviar dados</strong></button>
+        </div>
+
+    </form>
+</body>
+</html>

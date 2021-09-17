@@ -1,0 +1,52 @@
+html {
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+#chamada {
+    font-size: 30px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+}
+
+html {
+    background-color: rgba(0, 76, 255, 0.664);
+}
+
+#imagem {
+    display: block;
+    margin: 0 auto;
+}
+
+fieldset {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ffee00de;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+#dadospessoais, #perguntas {
+    font-size: 25px;
+}
+
+#dadospessoais {
+    float: left;
+}
+
+#enviar {
+    font-size: 1.2em;
+    padding: 1em 3em;
+    background-color: #ffee00de;
+    margin-left: 45%;
+    margin-right: auto;
+    margin-top: 3%;
+    border: 5px solid black;
+}
